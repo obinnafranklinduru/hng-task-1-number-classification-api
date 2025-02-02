@@ -12,7 +12,10 @@ app.use(express.json());
 // Routes
 app.use("/api", numberRoutes);
 app.use("*", (req, res) =>
-  res.json({ message: "Welcome to the Number Classifier API" })
+  res.json({
+    message: "Welcome to the Number Classifier API",
+    route: "`GET /api/classify-number?number=<integer>`",
+  })
 );
 
 // Error handling middleware
