@@ -1,0 +1,14 @@
+{
+  "name": "hng-task-1-number-classification-api",
+  "version": "1.0.0",
+  "description": "Provides mathematical properties and fun facts for integers.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
